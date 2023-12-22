@@ -1,0 +1,59 @@
+@charset "utf-8";
+html {
+    font-size: 100%;
+}
+
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+#home {
+    background-image: url(zikosilyoukaigazou/sky.jpg);
+}
+
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+}
+h1 {
+    background-color: white;
+}
+.container2  {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+table {
+    margin: 50px 150px;
+    background-color: aquamarine;
+}
+.form {
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 10px;
+}
+h3 {
+    font-family:sans-serif;
+    font-size: larger;
+    margin-top: 50px;
+}
+textarea {
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    height: 160px;
+}
